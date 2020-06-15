@@ -7,5 +7,35 @@
 	<link href="main.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	<script src="main.js">
+
 	</script>
 </head>
+<header><h1>The SteveUlator</h1></header>
+
+<body>
+  <div class="container">
+		<div type="text" class="result" id="results"/></div>
+		<div class="buttons">
+      <span class="button resetBtn" value = "c"  onclick="clear()"/>AC</span>
+      <span class="button negative operator" value = "+/"  onclick="answer(+/-)">+/-</span>
+      <span class="button operator percent" value = "%"  onclick="answer(%)">%</span>
+      <span class="button operator" value = "/" onclick="answer("/")">/</span>
+      <span class="button number" value = "7" onclick="answer('7')">7</span>
+      <span class="button number" value ="8" onclick="answer('8')">8</span>
+      <span class="button number" value ="9" onclick="answer('9')">9</span>
+      <span class="button operator" value ="*" onclick="answer('*')">*</span>
+      <span class="button number" value ="4" onclick="answer('4')">4</span>
+      <span class="button number" value ="5" onclick="answer('5')">5</span>
+      <span class="button number" value ="6" onclick="answer('6')">6</span>
+      <span class="button operator" value ="-" onclick="answer('-')">-</span>
+      <span class="button number" value ="1" onclick="answer('1')">1</span>
+      <span class="button number" value ="2" onclick="answer('2')">2</span>
+      <span class="button number" value ="3" onclick="answer('3')">3</span>
+      <span class="button operator" value ="+" onclick="answer('+')">+</span>
+      <span class="button number zero-btn" value ="0" onclick="getAnswer('0')">0</span>
+      <span class="button number dot" value = onclick="getAnswer('.')">.</span>
+      <span class="button  operator" value = onclick="solve()">=</span>
+      </div>
+    </div>
+</body>
+
